@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaSearch } from 'react-icons/fa'
 import { IoIosArrowDown } from "react-icons/io";
 
 function CustomDropdown({headingname}) {

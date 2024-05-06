@@ -1,5 +1,4 @@
 import React from "react";
-import { ImPriceTags } from "react-icons/im";
 import CountUp from "react-countup";
 import { GoArrowUpRight } from "react-icons/go";
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import InvoiceNavbar from "./InvoiceNavbar";
 import { FaSearch } from "react-icons/fa";
 import InvoiceTable from "./InvoiceTable";
-import { PiFilePlusDuotone } from "react-icons/pi";
+// import { PiFilePlusDuotone } from "react-icons/pi";
 import CreateInvoiceModal from "../Modals/CreateInvoice";
 
 function Invoice() {
@@ -52,7 +52,7 @@ function Invoice() {
               className="p-3 flex h-fit  justify-center items-center rounded-full text-xs border-stone-200 border-opacity-40 text-white border"
             >
               {" "}
-              <PiFilePlusDuotone className="text-xl" /> Create an invoice
+              <FaSearch className="text-xl" /> Create an invoice
             </button>
           </div>
         </div>
